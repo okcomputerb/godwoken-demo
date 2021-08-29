@@ -175,11 +175,9 @@ export function App() {
             <br />
             <hr />
             <p>
-                The button below will deploy a SimpleStorage smart contract where you can store a
-                number value. By default the initial stored value is equal to 123 (you can change
-                that in the Solidity smart contract). After the contract is deployed you can either
-                read stored value from smart contract or set a new one. You can do that using the
-                interface below.
+                The button below will deploy a ERC20 token contract which can be burned. 
+                1000 token will be minted by you after the contract is deployed.
+                You can ether read the supply or burn some token.
             </p>
             <button onClick={deployContract} disabled={!balance}>
                 Deploy contract
